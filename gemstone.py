@@ -7,7 +7,7 @@ print("Målet med spelet är att du ska få maximalt 21 poäng. Du får poäng g
 keep_playing = True
 
 while keep_playing:
-    choice = input("Vill du kasta tärningen? (Ja/Nej): ").strip().lower()
+    choice = input("Vill du kasta tärningen? (Ja/Nej): ")
     if choice in ("nej", "n"):
         print("Du valde att stanna här. Hejdå!")
         keep_playing = False
